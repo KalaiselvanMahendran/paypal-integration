@@ -2,9 +2,8 @@ var paypal = require('paypal-rest-sdk');
 
 paypal.configure({
   'mode': 'sandbox', //sandbox or live
-  'host' : 'api.sandbox.paypal.com',
-  'client_id': '**********************************',
-  'client_secret': '**********************************'
+  'client_id': '************************************',
+  'client_secret': '****************************************'
 });
 
 module.exports = function(router) {
